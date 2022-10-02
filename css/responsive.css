@@ -1,0 +1,180 @@
+
+
+@media only screen and (max-width:992px){
+  .inner_header nav ul li a {
+   display:none;
+}
+
+.trail_btn {
+   display:none;
+}
+
+.togoler{
+   display:block;
+}
+
+.inner_herro h1 {
+   font-size: 40px;
+}
+
+.herro_details {
+   font-size: 19px;
+   line-height: 25px;
+   max-width: 444px;
+   margin: 4px auto;
+}
+
+.search_box_conatainer {
+   max-width: 721px;
+   margin: 27px auto;
+   padding: 9px 0;
+}
+
+.search_box_conatainer div h3 {
+   font-size: 14px;
+}
+
+.search_box_conatainer div p {
+   font-size: 12px;
+}
+
+.search_btn button {
+   padding: 12px 26px;
+   font-size: 16px;
+}
+
+.spot_box{
+   flex-basis: 47%;
+   
+ }
+
+ .package_box ul li a {
+   font-size: 19px;
+}
+
+.customer_review_box {
+   flex-basis: 100%;
+   margin-bottom: 25px;
+}
+
+.inner_footer nav ul {
+  flex-direction: column;
+}
+
+.inner_footer nav ul li{
+   margin-bottom: 5px;
+}
+}
+
+
+@media only screen and (max-width:768px){
+
+   .inner_herro h1 {
+      font-size: 35px;
+  }
+
+  .herro_details {
+   font-size: 16px;
+   line-height: 23px;
+   max-width: 371px;
+   margin: 4px auto;
+   
+}
+   .search_box_conatainer {
+   flex-direction: column;
+   width: auto;
+   }
+
+   .search_box_conatainer {
+      max-width: 319px;
+      margin: 17px auto;
+      padding: 9px 0;
+      opacity: 80%;
+  }
+
+   .add_search,
+   .add_time_box,
+   .add_day,
+   .search_btn{
+      padding:0;
+      margin:0;
+
+   }
+
+   .add_search,
+   .add_time_box{
+      border-right: 0;
+      border-bottom: 1px solid brown;
+   }
+
+   .search_btn button {
+      padding: 4px 17px;
+      font-size: 15px;
+  }
+
+  .inner_survice {
+   justify-content: space-around;
+}
+
+.package_box ul{
+  flex-direction: column;
+}
+
+.package_box {
+   border:0;
+}
+
+.package_box ul li{
+ padding:9px;
+}
+
+.inner_footer {
+   flex-direction: column;
+}
+
+.inner_footer nav ul {
+   flex-direction:row;
+   margin-bottom: 25px;
+ }
+
+}
+
+@media only screen and (max-width:570px){
+   .spot_box{
+      flex-basis: 100%;
+      
+    }
+
+    .left_area {
+     border-radius: 5%;
+  }
+
+    .right_area_top {
+      margin-bottom: 3px;
+      width: 409px;
+      height: 150px;
+  }
+
+  .right_area_bottom h3 {
+   padding-top: 26px;
+}
+
+    .right_area_bottom {
+      width: 409px;
+      height: 148px;
+  }
+
+  .right_area_top h3 {
+   padding-top: 25px;
+}
+
+.left_area h2 {
+   padding-top: 63px;
+}
+
+.inner_footer p {
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+}
